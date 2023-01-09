@@ -1,4 +1,4 @@
-exports.onPreBuild = async function ({ cache }) {
+exports.onPostBuild = async function ({ cache }) {
   const cacheKey = "test-key"
   let obj = await cache.get(cacheKey)
 
