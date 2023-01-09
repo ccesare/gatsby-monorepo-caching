@@ -1,0 +1,17 @@
+# Gatsby
+.cache/
+public
+
+# dotenv
+.env
+.env.*
+
+# Node/Yarn
+node_modules/
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
